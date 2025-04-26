@@ -1,40 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>CSS Grid Layout</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2 class="r-fit-text">CSS Grid Layout</h2>
+			</section>
+			<section>
+				CSS grid layout introduces a two-dimensional grid system to CSS. Grids can be used to lay out major
+				page areas or small user interface elements.
+			</section>
+			<section id="fragments">
+				<h2>Benefits of CSS grid layout</h2>
+				<ul>
+					<li>High degree of control over the location and size of the elements</li>
+					<li class="fragment">Flexible and adaptive layout</li>
+					<li class="fragment">Clear and short code</li>
+				</ul>
+			</section>
+			<section>
+				<p>display: grid</p>
+				<img src="./src/images/slide-4.png" alt="slide-4">
+			</section>
+			<section>
+				<p>grid-template-columns</p>
+				<img src="./src/images/slide-5.png" alt="grid-template-columns">
+			</section>
+			<section>
+				<p>repeat()</p>
+				<img src="./src/images/slide-6.png" alt="repeat">
+			</section>
+			<section>
+				<p>grid-template-rows</p>
+				<img src="./src/images/slide-7.png" alt="grid-template-rows">
+			</section>
+			<section>
+				<p>gap</p>
+				<img src="./src/images/slide-8.png" alt="gap">
+			</section>
+			<section>
+				<p>the «fr» unit</p>
+				<img src="./src/images/slide-9.png" alt="the «fr» unit">
+			</section>
+			<section>
+				<p>grid-auto-flow</p>
+				<img src="./src/images/slide-10.png" alt="the «fr» unit">
+			</section>
+			<section>
+				<p>grid-auto-rows, grid-auto-columns</p>
+				<img src="./src/images/slide-11.png" alt="grid-auto-columns">
+			</section>
+			<section>
+				<p>grid-auto-rows, grid-auto-columns</p>
+				<img src="./src/images/slide-12.png" alt="grid-auto-rows">
+			</section>
+			<section>
+				<p>auto-fill, auto-fit</p>
+				<img src="./src/images/slide-13.png" alt="auto-fill, auto-fit">
+			</section>
+			<section>
+				<p>grid-column-start, grid-column-end,<br>grid-row-start, grid-row-end</p>
+				<img src="./src/images/slide-14.png" alt="grid-column-start, grid-column-end, grid-row-start, grid-row-end">
+			</section>
+			<section>
+				<p>grid-column, grid-row</p>
+				<img src="./src/images/slide-15.png" alt="grid-column, grid-row">
+			</section>
+			<section>
+				<section>
+					<p>justify-items: stretch</p>
+					<img src="./src/images/slide-16.png" alt="justify-items: stretch">
+				</section>
+				<section>
+					<p>justify-items: center</p>
+					<img src="./src/images/slide-16-1.png" alt="justify-items: center">
+				</section>
+				<section>
+					<p>justify-items: start</p>
+					<img src="./src/images/slide-16-2.png" alt="justify-items: start">
+				</section>
+				<section>
+					<p>justify-items: end</p>
+					<img src="./src/images/slide-16-3.png" alt="justify-items: end">
+				</section>
+			</section>
+			<section>
+				<section>
+					<p>align-items: stretch</p>
+					<img src="./src/images/slide-17.png" alt="align-items: stretch">
+				</section>
+				<section>
+					<p>align-items: center</p>
+					<img src="./src/images/slide-17-1.png" alt="align-items: center">
+				</section>
+				<section>
+					<p>align-items: start</p>
+					<img src="./src/images/slide-17-2.png" alt="align-items: start">
+				</section>
+				<section>
+					<p>align-items: end</p>
+					<img src="./src/images/slide-17-3.png" alt="align-items: end">
+				</section>
+			</section>
+			<section>
+				<p>grid-areas</p>
+				<img src="./src/images/slide-18.png" alt="grid-areas">
+			</section>
+			<section>
+				<p>You can create beautiful websites using CSS grid Layout</p>
+			</section>
+			<section data-transition="slide" data-background-transition="convex" data-background-image="../src/images/slide-19.png" data-background-size="contain">
+			</section>
+			<section data-transition="slide" data-background-transition="convex" data-background-image="../src/images/slide-19-1.png"
+				data-background-size="contain">
+			</section>
+			<section data-transition="slide" data-background-transition="convex"
+				data-background-image="../src/images/slide-19-2.png" data-background-size="contain">
+			</section>
+			<section>
+				<h3>Thank you for your attention</h3>
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
